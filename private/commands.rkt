@@ -218,7 +218,7 @@
     [#\g 'start-of-file]
     [#\t 'next-tab]
     [#\T 'prev-tab]
-    [#\h 'window-next]
+    [#\tab 'window-next]
     [_   #f]))
 
 (define (parse-mark next-key kind)
